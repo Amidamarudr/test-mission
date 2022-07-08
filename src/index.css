@@ -1,0 +1,17 @@
+@import "http://fonts.fontstorage.com/import/lato.css";
+
+body {
+  margin: 0;
+  font-family: 'Lato';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FFFFFF;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px 50px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
