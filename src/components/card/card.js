@@ -3,9 +3,9 @@ import "./card.css";
 
 export const Card = ({img, name}) => {
   return (
-    <div className='card'>
-        <img alt='картинка услуги' src={img}/>
-        <span>{name}</span>
-    </div>
+    <a className='card' href='#'>
+        {img && <img alt="картинка услуги" src={`https://goodsurfing.org/${img}`} />}
+        <span className='card-name'>{name}</span>
+    </a>
   )
 }

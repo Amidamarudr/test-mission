@@ -5,7 +5,7 @@ import "./header.css";
 
 export const Header = () => {
   return (
-    <div className="header">
+    <header className="header">
       <div className="header-logo">
         <img className="header-item" src="logo.svg" alt="Logo" title="Good Surfing" />
         <img className="header-item" src="goodsurfing.svg" alt="Logo" title="Good Surfing" />
@@ -29,6 +29,6 @@ export const Header = () => {
         <button className="header-enter__sign-in header-item">Вход</button>
         <button className="header-enter__sign-up header-item">Регистрация</button>
       </div>
-    </div>
+    </header>
   );
 };

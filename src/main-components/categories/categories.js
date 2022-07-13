@@ -11,11 +11,10 @@ export const Categories = () => {
   useEffect(() => {
     axios.get("https://goodsurfing.org/api/v1/hostcategory?fields=name_ru,image").then(({data}) => setNames(data))
   }, []);
-  
-  console.log(name);
 
   return (
     <div className='categories'>
+      <h1 className='categories-title'>Выбирайте по интересам</h1>
       <List>
           {
             name.map(n => {
